@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rankings.png">
+  <!-- Generated using Aseprite .json to FNF .xml: https://github.com/Lethrial/Aseprite-.json-to-FNF-.xml -->
+  <SubTexture name="cross 0" x="0" y="0" width="48" height="48"/>
+  <SubTexture name="bowser 0" x="48" y="0" width="48" height="48"/>
+  <SubTexture name="poison 0" x="96" y="0" width="48" height="48"/>
+  <SubTexture name="coin 0" x="0" y="48" width="48" height="48"/>
+  <SubTexture name="mushroom 0" x="48" y="48" width="48" height="48"/>
+  <SubTexture name="flower 0" x="96" y="48" width="48" height="48"/>
+  <SubTexture name="star 0" x="0" y="96" width="48" height="48"/>
+  <SubTexture name="you dropped this 0" x="48" y="96" width="48" height="48"/>
+</TextureAtlas>

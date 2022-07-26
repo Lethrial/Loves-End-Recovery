@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jump.png">
+  <!-- Generated using Aseprite .json to FNF .xml: https://github.com/Lethrial/Aseprite-.json-to-FNF-.xml -->
+  <SubTexture name="fire_jump 0" x="0" y="0" width="26" height="26"/>
+  <SubTexture name="normal_jump 0" x="26" y="0" width="26" height="26"/>
+</TextureAtlas>

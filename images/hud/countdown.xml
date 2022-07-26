@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="countdown.png">
+  <!-- Generated using Aseprite .json to FNF .xml: https://github.com/Lethrial/Aseprite-.json-to-FNF-.xml -->
+  <SubTexture name="three 0" x="0" y="0" width="198" height="102"/>
+  <SubTexture name="two 0" x="0" y="102" width="198" height="102"/>
+  <SubTexture name="one 0" x="0" y="204" width="198" height="102"/>
+  <SubTexture name="go 0" x="0" y="306" width="198" height="102"/>
+</TextureAtlas>

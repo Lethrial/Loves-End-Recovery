@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="over.png">
+  <!-- Generated using Aseprite .json to FNF .xml: https://github.com/Lethrial/Aseprite-.json-to-FNF-.xml -->
+  <SubTexture name="none0" x="0" y="0" width="558" height="42"/>
+  <SubTexture name="none1" x="0" y="0" width="558" height="42"/>
+  <SubTexture name="none2" x="0" y="0" width="558" height="42"/>
+  <SubTexture name="none3" x="0" y="0" width="558" height="42"/>
+  <SubTexture name="none4" x="0" y="0" width="558" height="42"/>
+  <SubTexture name="none5" x="0" y="0" width="558" height="42"/>
+  <SubTexture name="text0" x="0" y="42" width="558" height="42"/>
+  <SubTexture name="select0" x="0" y="0" width="558" height="42"/>
+  <SubTexture name="select1" x="0" y="42" width="558" height="42"/>
+</TextureAtlas>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="flags.png">
+  <!-- Generated using Aseprite .json to FNF .xml: https://github.com/Lethrial/Aseprite-.json-to-FNF-.xml -->
+  <SubTexture name="none 0" x="0" y="0" width="48" height="48"/>
+  <SubTexture name="fc 0" x="48" y="0" width="48" height="48"/>
+  <SubTexture name="gfc 0" x="96" y="0" width="48" height="48"/>
+  <SubTexture name="sfc 0" x="144" y="0" width="48" height="48"/>
+  <SubTexture name="cross 0" x="192" y="0" width="48" height="48"/>
+</TextureAtlas>

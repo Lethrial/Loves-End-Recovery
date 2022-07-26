@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="judgements.png">
+  <!-- Generated using Aseprite .json to FNF .xml: https://github.com/Lethrial/Aseprite-.json-to-FNF-.xml -->
+  <SubTexture name="perfect 0" x="0" y="0" width="96" height="48"/>
+  <SubTexture name="sick 0" x="0" y="48" width="96" height="48"/>
+  <SubTexture name="good 0" x="0" y="96" width="96" height="48"/>
+  <SubTexture name="bad 0" x="0" y="144" width="96" height="48"/>
+  <SubTexture name="shit 0" x="0" y="192" width="96" height="48"/>
+  <SubTexture name="miss 0" x="0" y="240" width="96" height="48"/>
+</TextureAtlas>
