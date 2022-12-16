@@ -1,8 +1,8 @@
 function onCreate()
     setPropertyFromClass('GameOverSubstate', 'characterName', 'over')
-    setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'shush')
-    setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'shush')
-    setPropertyFromClass('GameOverSubstate', 'endSoundName', 'shush')
+    setPropertyFromClass('GameOverSubstate', 'deathSoundName', '')
+    setPropertyFromClass('GameOverSubstate', 'loopSoundName', '')
+    setPropertyFromClass('GameOverSubstate', 'endSoundName', '')
 end
 
 function onCreatePost()
@@ -80,12 +80,12 @@ function onGameOverStart()
     screenCenter('boyfriend')
     setProperty('boyfriend.x', getProperty('boyfriend.x') + 30)
     setProperty('boyfriend.y', getProperty('boyfriend.y') - 10)
-    playSound('death')
+    playSound('death', 1, 'death')
     return Function_Continue
 end
 
 function onGameOverConfirm(retry)
-    pauseSound('death') --this doesn't work for some reason lol
+    pauseSound('death', 1, 'death')
     if retry then playSound('game_over_confirm') end
 	return Function_Continue
 end

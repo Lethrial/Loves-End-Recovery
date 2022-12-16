@@ -4753,7 +4753,7 @@
 		"player2": "imario",
 		"splashSkin": "noteSplashes",
 		"song": "Loves End",
-		"needsVoices": false,
+		"needsVoices": true,
 		"arrowSkin": "",
 		"stage": "castle",
 		"validScore": true,

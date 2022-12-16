@@ -4699,7 +4699,7 @@
 		"song": "Loves End",
 		"arrowSkin": "",
 		"stage": "castle",
-		"needsVoices": false,
+		"needsVoices": true,
 		"validScore": true,
 		"speed": 3,
 		"bpm": 165
