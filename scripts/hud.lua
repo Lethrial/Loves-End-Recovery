@@ -83,7 +83,7 @@ function onCreatePost()
             makeAnimatedLuaSprite('flags', 'hud/flags', 795, ds_y + 7)
             makeAnimatedLuaSprite('rankings', 'hud/rankings', 845, ds_y + 7)
         end
-        makeAnimatedLuaSprite('points', 'hud/judgements', getProperty('boyfriend.x') - 110, 10000) --y will be calculated later
+        makeAnimatedLuaSprite('points', 'hud/judgements', getProperty('boyfriend.x') - 140, 10000) --y will be calculated later
 
         addAnimationByPrefix('flags', 'sfc', 'sfc', 1, true)
         addAnimationByPrefix('flags', 'gfc', 'gfc', 1, true)
