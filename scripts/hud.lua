@@ -121,6 +121,7 @@ function onCreatePost()
         for i = 0, getProperty('unspawnNotes.length') - 1 do
             if getPropertyFromGroup('unspawnNotes', i, 'isSustainNote') == true then
                 setPropertyFromGroup('unspawnNotes', i, 'alpha', 1)
+                setPropertyFromGroup('unspawnNotes', i, 'multAlpha', 1)
             end
         end
     end
