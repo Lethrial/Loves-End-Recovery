@@ -51,14 +51,15 @@ function onCreatePost()
     if not hideHud then
         --text stuff (score and ratings)
         if not downscroll then
-            makeLuaText('score_text', '', 500, 60, us_y)
+            makeLuaText('score_text', '', 500, 160, us_y)
             makeLuaText('acc_text', '', 500, 720, us_y)
             makeLuaText('small_acc_text', '', 500, 830, us_y + 23)
         else
-            makeLuaText('score_text', '', 500, 60, ds_y)
+            makeLuaText('score_text', '', 500, 160, ds_y)
             makeLuaText('acc_text', '', 500, 720, ds_y)
             makeLuaText('small_acc_text', '', 500, 830, ds_y + 23)
         end
+        setTextAlignment('score_text', 'left')
         setTextFont('score_text', 'normal.ttf')
         setTextFont('acc_text', 'normal.ttf')
         setTextFont('small_acc_text', 'small.ttf')
